@@ -5410,3 +5410,6 @@ protege-liens.com##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/15754
 camwhorez.video##+js(aopr, TotemToolsObject)
+
+! https://www.facebook.com/search/top?q=nyc
+www.facebook.com##:matches-path(/search) div[role="feed"] > div[role="article"] > div[class^="x"] > div[style*="-999900% - 39996px + 999900vw"]:has(div[class=""] a[href="#"]:not(:has(svg)):has(span > span[style*="position: absolute; top: 3em;"]:not(:has-text(/(\s|\d|^$)/))))
